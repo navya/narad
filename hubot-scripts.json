@@ -1,1 +1,11 @@
-["redis-brain.coffee", "shipit.coffee"]
+[
+    "redis-brain.coffee",
+    "shipit.coffee",
+    "tell.coffee",
+    "catfacts.coffee",
+    "cheer.coffee",
+    "coin.coffee",
+    "countdown.coffee",
+    "days_since.coffee",
+    "eval.coffee"
+]
