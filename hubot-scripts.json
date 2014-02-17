@@ -7,5 +7,6 @@
     "coin.coffee",
     "countdown.coffee",
     "days_since.coffee",
-    "eval.coffee"
+    "eval.coffee",
+    "wikipedia.coffee"
 ]
