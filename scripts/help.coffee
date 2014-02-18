@@ -55,11 +55,11 @@ module.exports = (robot) ->
     herokuUrl = process.env.HEROKU_URL
     if herokuUrl
       herokuUrl += '/' unless /\/$/.test herokuUrl
-      msg.send "Please see #{herokuUrl}#{robot.name}/help/"
+      msg.send "Please see #{herokuUrl}help/"
     else
       msg.send "Sorry, I don't know how to help you out!"
 
-  robot.router.get "/#{robot.name}/help", (req, res) ->
+  robot.router.get "/help", (req, res) ->
     cmds = robot.helpCommands().map (cmd) ->
       cmd.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
 
