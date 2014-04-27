@@ -71,6 +71,17 @@
     "youtube-info.coffee",
     "commitmessage.coffee",
     "f-ing-weather.coffee",
+    "git-help.coffee",
+    "github-activity.coffee",
+    "github-commiters.coffee",
+    "github-commit-link.coffee",
+    "github-credentials.coffee",
+    "github-issue-link.coffee",
+    "github-issues.coffee",
+    "github-pulls.coffee",
     "github-search.coffee",
-    "git-help.coffee"
+    "github-status.coffee",
+    "lastfm_np.coffee",
+    "ip.coffee",
+    "url.coffee"
 ]
