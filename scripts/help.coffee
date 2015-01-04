@@ -14,10 +14,8 @@
 helpContents = (name, commands) ->
 
   """
-<!DOCTYPE html>
 <html>
   <head>
-  <meta charset="utf-8">
   <title>#{name} Help</title>
   <style type="text/css">
     body {
@@ -69,14 +67,11 @@ module.exports = (robot) ->
       cmd = cmd.replace /^hubot/, prefix
       cmd.replace /hubot/ig, robot.name
 
-    herokuUrl = process.env.HEROKU_URL
-    if cmds.length > 5 and herokuUrl
-      herokuUrl += '/' unless /\/$/.test herokuUrl
-      msg.send "Please see #{herokuUrl}help/"
-    else
-      msg.send cmds.join "\n"
+    emit = cmds.join "\n"
 
-  robot.router.get "/help", (req, res) ->
+    msg.send emit
+
+  robot.router.get "/#{robot.name}/help", (req, res) ->
     cmds = robot.helpCommands().map (cmd) ->
       cmd.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
 

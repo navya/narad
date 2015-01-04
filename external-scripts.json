@@ -1,1 +1,3 @@
-["hubot-cron"]
+[ "hubot-cron"
+, "hubot-github-repo-event-notifier"
+]
