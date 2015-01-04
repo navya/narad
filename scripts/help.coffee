@@ -67,11 +67,14 @@ module.exports = (robot) ->
       cmd = cmd.replace /^hubot/, prefix
       cmd.replace /hubot/ig, robot.name
 
-    emit = cmds.join "\n"
+    herokuUrl = process.env.HEROKU_URL
+    if cmds.length > 5 and herokuUrl
+      herokuUrl += '/' unless /\/$/.test herokuUrl
+      msg.send "Please see #{herokuUrl}help/"
+    else
+      msg.send cmds.join "\n"
 
-    msg.send emit
-
-  robot.router.get "/#{robot.name}/help", (req, res) ->
+  robot.router.get "/help", (req, res) ->
     cmds = robot.helpCommands().map (cmd) ->
       cmd.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
 
