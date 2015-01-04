@@ -1,3 +1,4 @@
 [ "hubot-cron"
 , "hubot-github-repo-event-notifier"
+, "hubot-plusplus"
 ]
