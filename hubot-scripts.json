@@ -1,7 +1,6 @@
 [
     "redis-brain.coffee",
     "shipit.coffee",
-    "tell.coffee",
     "catfacts.coffee",
     "cheer.coffee",
     "coin.coffee",
@@ -10,14 +9,12 @@
     "eval.coffee",
     "wikipedia.coffee",
     "yell.coffee",
-    "ambush.coffee",
     "hello.coffee",
     "nice.coffee",
     "polite.coffee",
     "sensitive.coffee",
     "eight-ball.coffee",
     "remind.coffee",
-    "plus_one.coffee",
     "remember.coffee",
     "isup.coffee",
     "uptime.coffee",
@@ -35,7 +32,6 @@
     "complete.coffee",
     "bing.coffee",
     "tasks.coffee",
-    "http-info.coffee",
     "brb.coffee",
     "working-on.coffee",
     "good-night.coffee",
@@ -107,5 +103,6 @@
     "mindkiller.coffee",
     "oblique.coffee",
     "plus_one.coffee",
-    "put-it-back.coffee"
+    "put-it-back.coffee",
+    "web.coffee"
 ]
