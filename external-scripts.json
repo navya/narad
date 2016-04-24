@@ -2,7 +2,6 @@
   "hubot-ambush",
   "hubot-cron",
   "hubot-diagnostics",
-  "hubot-help",
   "hubot-heroku-keepalive",
   "hubot-github-repo-event-notifier",
   "hubot-google-images",
