@@ -37,7 +37,6 @@
     "good-night.coffee",
     "hackernews.coffee",
     "decide.coffee",
-    "emoji.coffee",
     "emoji-me.coffee",
     "abstract.coffee",
     "sudo.coffee",
@@ -104,5 +103,8 @@
     "oblique.coffee",
     "plus_one.coffee",
     "put-it-back.coffee",
-    "web.coffee"
+    "http-post-say.coffee",
+    "web.coffee",
+    "meme_generator.coffee",
+    "futurama.coffee"
 ]
