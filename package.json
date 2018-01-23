@@ -39,7 +39,7 @@
     "hubot-shipit": "^0.2.0",
     "hubot-tell": "^1.2.3",
     "hubot-youtube": "^1.0.0",
-    "jquery": "~2.1.4",
+    "jquery": "~3.0.0",
     "jsdom": "^3.1.2",
     "lodash": "^3.9.3",
     "moment": "^2.10.3",
