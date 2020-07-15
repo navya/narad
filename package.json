@@ -41,7 +41,7 @@
     "hubot-youtube": "^1.0.0",
     "jquery": "~3.0.0",
     "jsdom": "^3.1.2",
-    "lodash": "^3.9.3",
+    "lodash": "^4.17.19",
     "moment": "^2.10.3",
     "node-stringprep": "^0.7.0",
     "nodepie": "^0.6.7",
